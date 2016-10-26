@@ -1,0 +1,76 @@
+body{
+	margin: 0 40px 0 40px;
+}
+.naslov{
+	width: 100%;
+	text-align: center;
+	font-size: 15px;
+	border-bottom: 2px solid;
+	border-color: #DA70D6
+}
+
+.pdd{
+	font-weight: bold;
+	font-size: 20px;
+	padding: 40px;
+	text-align: center;
+	background-color: #DA70D6
+}
+.datum{
+	padding-left: 300px;
+	padding-top: 200px;
+	background-color: #DA70D6
+}
+.fazla{
+	padding-right: 350px;
+}
+.danochen{
+	padding-left: 300px;
+}
+.fazla2{
+	padding-left: 100px;
+}
+.od{
+	font-weight: bold;
+	padding-left: 100px;
+}
+.od1{
+	padding-left: 100px;
+	border: 2px solid;
+	border-color: #DA70D6;
+	font-weight: bold;
+}
+.em{
+	border: 2px solid;
+	border-color: #DA70D6
+}
+.isp{
+	padding-right: 100px;
+}
+.tabla{
+	border: 2px solid;
+	border-color: #DA70D6;
+	width: 100%;
+}
+.naslov{
+	font-weight: bold;
+	padding: 50px;
+}
+.nula{
+	border: 2px solid;
+	border-color: #DA70D6;
+	text-align: right;
+}
+.inp{
+	border: 2px solid;
+	border-color: #DA70D6
+}
+.vku{
+	font-weight: bold;
+	font-size: 20px ;
+}
+.tabla2{
+	border: 2px solid;
+	border-color: #DA70D6;
+	width: 100%;
+}
