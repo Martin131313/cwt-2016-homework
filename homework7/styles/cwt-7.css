@@ -1,0 +1,163 @@
+.nav{
+	margin-left: 0px;
+	padding: 0px;
+}
+
+	.nav a{
+		display: block;
+		width: calc(100% / 5);
+		text-align: left;
+		transition: width 1s;
+		width: 100px;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 30px;
+		font-family: sans-serif;
+		color: black;
+		border-radius: 10px 10px;
+		background-color: #6773AF;
+	}
+
+	.nav a:hover {
+		background-color: #7249E8;
+		color: #2F2844;
+		width: 250px;
+		font-weight: bold;
+		font-size: 30px;
+		padding-left: 10px;
+	}
+
+	.nav span {
+		display: block;
+		clear: both;
+	}
+
+.nav2{
+	margin-left: 0px;
+	padding: 0px;
+}	
+
+	.nav2 a{
+		display: block;
+		text-decoration: none;
+		text-align: left;
+		transition: .6s;
+		width: 80%;
+		width: 20px;
+		height: 30px;
+		font-size: 40px;
+		font-family: sans-serif;
+		background-color: #1DB4BE;
+	}
+
+	.nav2 a:hover {
+		background-color: #20E8DF;
+		color: #F90084;
+		width: 10%; 
+		font-weight: bold;
+		font-size: 40px;
+		padding-left: 20px;
+	}
+
+	.nav2 span{
+		display: block;
+		clear: both;
+	}
+
+.nav3{
+	margin-top: 10px;
+	padding: 0px;
+}	
+
+	.nav3 a{
+		display: block;
+		text-decoration: none;
+		text-align: left;
+		transition: .6s;
+		width: 100px;
+		height: 50px;
+		font-size: 25px;
+		font-family: sans-serif;
+		background-color: white;
+		color: #365C63;
+		font-weight: bold;
+
+	}
+
+	.nav3 a:hover {
+		background-color: pink;
+		color: black;
+		font-size: 20px;
+		font-weight: bold;
+		margin-left: 30px;
+	}
+
+	.nav3 span {
+		display: block;
+		clear: both;
+	}
+
+.nav4{
+	margin-top: 0px;
+	padding: 0px;
+}	
+
+	.nav4 a {
+		display: inline-block;
+		text-decoration: none;
+		text-align: center;
+		transition: .8s ease;
+		padding: 10px;
+		font-size: 25px;
+		font-family: sans-serif;
+		color: black;
+		border-radius: 20px 20px 20px 20px;
+		background-color: black;
+		color: #FA0D05;
+	}
+
+	.nav4 a:hover{
+		font-size: 40px;
+		font-weight: bold;
+		background: gray;
+		color: #FA0D05;
+	}
+
+	.nav4 span{
+		display: block;
+		clear: both;
+	}
+
+.nav5{
+	margin-top: 0px;
+	padding: 0px;
+}	
+
+	.nav5 a{
+		display: block;
+		text-decoration: none;
+		text-align: left;
+		padding: 10px 0 ;
+		width: 9%;
+		font-size: 36px;
+		color: black;
+		transition-property: width;
+		transition-duration: 2s;
+		transition-timing-function: ease-out;
+		color: #37493A;		
+	}
+
+	.nav5 a:hover{
+		border-top: 10px solid;
+		border-color: #D8FF00;
+		color: #FC3408;
+		font-weight: bolder;
+		width: 10%;
+		padding-left: 60px;
+		font-size: 29px;
+	}
+
+	.nav5 span {
+		display: block;
+		clear: both;
+	}
