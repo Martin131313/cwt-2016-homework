@@ -1,0 +1,169 @@
+nav {
+	margin: 0px;
+	padding: 0px;
+}
+
+.navche a {
+	display: block;
+	float: left;
+	width: calc(100% / 5);
+	text-align: center;
+	font-weight: italic;
+	transition: .5s ease-in-out;
+	text-decoration: none;
+	padding: 10px 0px;
+	text-transform: lowercase;
+	font-family: sans-serif;
+	background-color: #676767;
+	color: white;
+	font-size: 60px;
+	}
+
+	.navche a:first-of-type {
+		border-radius: 0 0 0 60px;
+	}
+
+	.navche a:last-of-type {
+		border-radius: 0 0 60px 0; 
+	}
+
+	.navche a:hover {
+		background-color: #4D5E6F;
+		color: #E4F707;
+	}
+
+	.navche span {
+		display: block;
+		clear: both;
+	}
+
+.navche2{
+	margin: 50px;
+	padding: 0px;
+}
+
+	.navche2 a {
+		height: 40px;
+		width: 300px;
+		width: calc(100% / 5);
+		text-align: center;
+		display: block;
+		float: left;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 30px;
+		font-family: sans-serif;
+		font-weight: bold;
+		color: #17E3CA;
+		background-color: #3E324F;
+		transition-property: width;
+		transition-duration: .4s;
+		transition-timing-function: ease;
+		transition-delay: .1s;	
+	}
+
+	.navche2 a:hover {
+		background-color: #703AB9;
+		color: aqua;
+		font-weight: italic;
+		width: 250px;
+		height: 40px;
+	}
+
+	.navche2 span{
+		display: block;
+		clear: both;
+	}
+
+.navche3{
+	margin-bottom: 50px;
+	padding: 0px;
+}
+	
+	.navche3 a {
+		display: block;
+		float: left;
+		width: (100% / 5);
+		text-align: center;
+		transition: 2s;
+		text-decoration: none;
+		font-size: 80px;
+		padding: 15px;
+		font-family: sans-serif;
+		color: #45DD3E;
+		border-radius: 10px 10px 10px 10px;
+	}
+
+	.navche3 a:hover {
+	background-color: #223221;
+	counter-reset: violet;
+	font-size: bold;
+	}
+
+	.navche3 span{
+		display: block;
+		clear: both;
+	}
+
+.navche4{
+	margin-top: 50px;
+	margin-left: 150px;
+	padding: 0px;
+}
+	
+	.navche4 a {
+		display: block;
+		float: left;
+		width: calc(100% / 5);
+		transition: width .2s, height .2s, transform .2s;
+		text-decoration: none;
+		padding: 10px 0px;
+		text-transform: uppercase;
+		font-size: 50px;
+		font-family: sans-serif;
+		color: black;
+	}
+
+	.navche4 a:hover {
+		background-color: #394586;
+		color: #FF0BB1;
+    	font-weight: bold;
+    	font-size: 50px;
+	}
+
+	.navche4 span {
+		display: block;
+		clear: both;
+	}
+
+.navche5{
+margin-top: 50px;
+	padding: 0px;
+}
+
+	.navche5 a {
+		display: block;
+		float: left;
+		width: 19%;
+		text-align: center;
+		text-decoration: none;
+		padding: 10px 0px;
+		font-size: 90px;
+		font-family: sans-serif;
+		color: #F7B00E;
+	    transition-property: width;
+   		transition-duration: .7s;
+    	transition-timing-function: ease;
+	}
+
+	.navche5 a:hover {
+		border-bottom: 5px solid;
+		border-color: #071351;
+		color: black;
+		font-weight: bold;
+		width: 20%;
+	}
+
+	.navche5 span {
+		display: block;
+		clear: both;
