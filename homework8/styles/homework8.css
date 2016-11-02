@@ -1,11 +1,9 @@
 	body{
-		margin: 0;
-		padding: 0;
-		background-color: white;
+		margin: 0 50px 0 50px;
 	}
 
 	.container1{
-		background-color: gray;
+		background-color: black;
 		width: 100%;
 		height: 300px;
 
@@ -13,25 +11,26 @@
 	}
 
 		.glavch{
-			background-color: white;
+			background-color: black;
 			width: 100%;
 			height: 100px;
 		}
 
 		.menu{
-			background-color: black;
+			background-color: white;
 			width: 100%;
 			height: 150px;	
+			font-family: bold;
+			font-size: 40px;
 		}
 
 	.container2{
-		background-color: silver;
 		width: 100%;
 		height: 500px;
 	}
 
 		 .left{
-			background-color: red;
+			background-color: #4b4e51;
 			width: 20%;
 			height: 500px;
 			float: left;
@@ -39,23 +38,23 @@
 
 
 			.levko1{
-					background-color: black;
+					background-color: #579be0;
 					width: 60%;
 					height: 100px;
 					float: right;
-					margin: 0 0 20px 0;
+					margin: 5px 0 20px 0;
 				
 				}
 	
 				.levko2{
-					background-color: pink;
+					background-color: #579be0;
 					width: 60%;
 					height: 100px;
 					float: right;
 					margin: 0 0 20px 0;
 				}
 				.levko3{
-					background-color: yellow;
+					background-color:  #579be0;
 					width: 60%;
 					height: 100px;
 					float: right;
@@ -63,7 +62,7 @@
 				}
 
 				.levko4{
-					background-color: green;
+					background-color: #579be0;
 					width: 60%;
 					height: 100px;
 					float: right;
@@ -72,48 +71,49 @@
 
 
 		.center{
-			background-color: blue;
+			background-color: #4b4e51;
 			width: 60%;
 			height: 500px;
 			float: left;
 		}
 
 			.centar1{
-				background-color: aqua;
+				background-color: #579be0;
 				width: 80%;
 				height: 160px;
 				float: right;
-				margin: 0 0 5px 0;
+				margin: 5px 40px 5px 0;
 			}
 
 			.centar2 {
-				background-color: purple;
+				background-color: #579be0;
 				width: 80%;
 				height: 160px;
 				float: right;
+				margin: 5px 40px 0 0 ;
 			}
 
 			.centarlevo {
-				background-color: white;
-				width: 40%; 
+				background-color: #579be0;
+				width: 35%; 
 				height: 130px;
 				float: right;
-				margin: 20px 0 0 0 ;
+				margin: 20px 60px 0 0 ;
 				
 			}
 
 			.centardesno {
-				background-color: black;
-				width: 40%;
+				background-color: #579be0;
+				width: 35%;
 				height: 130px;
 				float: right;
-				margin: 20px 20px 0 0 ;
+				margin: 20px 60px 0 0 ;
 				
 			}
 		
 
 		.right{
-			background-color: green;
+			background-color: #4b4e51;
 			width: 20%;
 			height: 500px;
 			float: left;
@@ -122,18 +122,202 @@
 
 
 			.desno1{
-				background-color: orange;
-				width: 97%;
-				height: 250px;
-				margin: 0 0 0 5px;
+				background-color: #579be0;
+				width: 60%;
+				height: 200px;
+				margin: 5px 0 10px 5px;
 
 			}
 			
 			.desno2{
-				background-color: red;
-				width: 97%;
-				height: 250px;
-				margin: 0 0 0 5px;
+				background-color: #579be0;
+				width: 60%;
+				height: 200px;
+				margin: 5px 0 10px 5px;
 			}
 
 
+	.container3{
+		height: 3500px;
+		width: 100%;
+	}
+
+			.levo{
+				background-color: #151e26;
+				width: 70%;
+				height: 3455px;
+				float: left;
+			}
+		
+				.golem{
+					background-color: #2c90f4;
+					width: 60%;
+					height: 300px;
+					margin: 15px 0 0 120px ;
+				}
+
+				.mal{
+					background-color: #2c90f4;
+					width: 30%;
+					height: 150px;
+					margin: 15px 0 0 120px ;
+				}	
+
+			.desen{
+				background-color: #151e26;
+				width: 30%;
+				height: 3455px;
+				float: right;
+			}
+
+				.desnomal{
+					width: 80%;
+					height: 500px;
+					float: right;
+					margin: 2880px 40px 0 0 ;
+				}
+
+					.mali{
+						background-color: #2c90f4;
+						width: 166px;
+						height: 70px;
+						margin: 60px 0 10px 15px;
+					}
+	
+
+	.container4{
+		background-color: #51565b;
+		width: 100%;
+		height: 1100px;
+		float: left;
+	}	
+
+		.gore{
+			background-color: #63b1ff;
+			width: 80%;
+			height: 350px;
+			margin: 25px 0 0 150px;
+		}		
+
+		.sredina{
+			width: 80%;
+			height: 300px;
+			margin: 20px 0 0 150px;
+		}
+			
+			 .minitri{
+				background-color: #63b1ff;
+				width: 340px;
+				height: 280px;
+				margin: 10px 0 10px 60px;
+				float: left;
+			}
+
+		.dole{
+			width: 80%;
+			height: 350px;
+			margin: 25px 0 0 150px;
+		}
+
+			.minidole1{
+				background-color: #63b1ff;
+				width: 700px;
+				height: 290px;
+				float: left;
+				margin: 40px 0 0 30px;
+			}
+
+			.minidole2{
+				background-color: #63b1ff;
+				width: 250px;
+				height: 290px;
+				float: left;
+				margin: 40px 0 0 120px;
+			}
+
+
+	.container5{
+		background-color: #0b2247;
+		width: 100%;
+		height: 700px;
+		float: left;
+	}		
+
+		.sheski{
+			background-color: #899bb7;
+			width: 900px;
+			height: 80px;
+			margin: 30px 0 20px 100px;
+		}
+
+	
+	.container6{
+		background-color: #23262b;
+		width: 100%;
+		height: 810px;
+		float: left;
+	}
+
+		.trojki{
+			background-color: #2464cc;
+			width: 380px;
+			height: 250px;
+			margin: 30px 2px 0 100px;
+			float: left;
+		}
+
+		.shes{
+			background-color: #505359;
+			width: 100%;
+			height: 530px;
+			float: left;
+			margin: 5px 0 5px 0px;
+		}
+
+			.mini{
+				background-color: #1f6ae2;
+				width: 400px;
+				height: 80px;
+				float: left;
+				margin: 30px 0 20px 90px;
+			}
+
+	.container7{
+		background-color: #98a3b5;
+		width: 100%;
+		height: 636px;
+		float: left;
+	}	
+
+		.deset{
+			background-color: #163466;
+			width: 270px;
+			height: 300px;
+			float: left;
+			margin: 10px 0 10px 35px;
+		}	
+
+	.container8{
+		width: 100%;
+		height: 620px;
+		float: left;
+
+	}	
+
+		.kec{
+			background-color: #caf7f2;
+			width: 100%;
+			height: 180px;
+		}
+
+		.dva{
+			background-color: #3777dd;
+			width: 100%;
+			height: 300px;
+		}
+
+		.tri{
+			background-color: #434c59;
+			width: 100%;
+			height: 140px;
+		}
